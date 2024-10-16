@@ -11,9 +11,12 @@ import javax.persistence.*;
 @Setter
 public class WikimediaData {
 
+    // this is entity
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
 
     @Lob
     private String wikiEventData;
